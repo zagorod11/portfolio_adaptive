@@ -1,0 +1,111 @@
+/* медіа-запит для екранів з шириною до 760-1100x */
+@media(max-width: 1140px) {
+body{
+	background-color: pink;
+
+}
+.header-title{
+font-size: 32px;	
+}
+.header-subtitle{
+font-size: 14px;	
+}
+.card{
+	width: calc(50% - 15px);
+}
+.footer{
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.footer-row > * + *{
+	margin-bottom: 40px;	
+}
+.footer-icons-list ul{
+	justify-content: center;
+}
+
+}
+
+
+/* медіа-запит для екранів з шириною до 760x */
+@media(max-width:760px) {
+body{
+	background-color: greenyellow;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+/* Header */
+.section-header{
+	font-size: 32px;
+	margin-bottom: 30px;
+}	
+.header-title{
+font-size: 32px;	
+}	
+.header-subtitle{
+font-size: 14px;
+}
+
+
+/* Portfolio */
+.portfolio{
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+.section-header{
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+.portfolio-cards-wrapper{
+	justify-content: center;	
+}
+.card{
+	padding: 15px;
+	width: 100%;
+
+}
+.card:nth-last-child(2){
+	margin-bottom: 30px;
+}
+.card-img{
+	margin-bottom: 10px;
+}
+.card-title{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.card p{
+	font-size: 14px;
+}
+
+.footer-row{
+	flex-direction: column-reverse;
+	align-items: center;
+	text-align: center;
+
+	
+}
+.footer-copyright-name{
+	margin-bottom: 5px;
+	margin-left: 0px;
+	font-size: 18px;
+
+}
+.footer-copyright p{
+	font-size: 14px;
+}
+.footer-icons p{
+	font-size: 14px;
+}
+.footer-contacts p{
+
+	font-size: 14px;
+	margin: 15px;
+	margin-top: 10px;
+	flex-wrap: wrap;
+
+}	
+}
+/*footer*/
